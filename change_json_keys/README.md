@@ -7,3 +7,7 @@ Solutions is in Ruby:
 
 - nested.json: Sample json file
 - change_json_keys.rb: Actual code
+
+I also provided a solution to this problem in this question:
+
+http://stackoverflow.com/questions/43600146/how-to-remove-a-character-or-characters-from-the-keys-of-a-json-structure-in-rub
