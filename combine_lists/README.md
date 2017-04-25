@@ -1,4 +1,4 @@
-# comine_lists
+# combine_lists
 
 The problem is basically combine two sorted lists.
 
