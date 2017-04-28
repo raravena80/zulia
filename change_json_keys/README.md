@@ -7,6 +7,8 @@ Solutions is in Ruby:
 
 - nested.json: Sample json file
 - change_json_keys.rb: Actual code
+- change_json_keys_alt.rb: Alternative solution 1
+- change_json_keys_alt2.rb: Alternative solution 2
 
 I also provided a solution to this problem in this question:
 
