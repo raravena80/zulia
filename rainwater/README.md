@@ -9,6 +9,7 @@ For example:
 In this case:
 
  +0 +1 +1 +0 +3 +4 +0  = 9
+ 
 [ 3, 2, 2, 5, 2, 1, 7 ]
 
 Solutions are in Go:
