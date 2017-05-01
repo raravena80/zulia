@@ -1,6 +1,6 @@
 # combine_lists
 
-The problem is basically combine two sorted lists.
+The problem is basically combine two sorted lists. Using brute force approach without using Ruby sort or helper library.
 
 Solutions are in Ruby:
 
