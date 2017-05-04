@@ -1,7 +1,7 @@
 # dinosaurs -- Dinosaurs
 
 Problem is, given two files like this:
-
+```
 csv file 1 (Name, length, stance)
 ---------
 Procompsognathus,1.03,bipedal
@@ -14,6 +14,7 @@ Procompsognathus,2.3,carnivore
 Velociraptor,3.21,carnivore
 Brontosaurus,0.3,herbivore
 Triceratops,1.40,herbivore
+```
 
 and speed is: stride * length (for simplicity purposes)
 
