@@ -4,8 +4,10 @@
 
 Given these two strings
 
+```
 s1 = "waterbottle"
 s2 = "bottlewater"
+```
 
 If the s2 is a substring of s1 then output true
 
