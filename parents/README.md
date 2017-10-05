@@ -34,3 +34,4 @@ parent_child_pairs = [[1, 3], [2, 3], [3, 6], [5, 6], [5, 7], [4, 5], [4, 8], [8
 Solution is in Ruby:
 
 - parents.rb - Solution in Ruby. Run with: ./parents.rb
+- parents2.rb - Second solution in Ruby. Shorter. Run with: ./parents.rb
