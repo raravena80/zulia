@@ -5,32 +5,32 @@ require 'json'
 
 def iterate(data)
   if data.is_a?(Array)
-    return data.map { |i| iterate(i) }
+    data.map { |i| iterate(i) }
   elsif data.is_a?(Hash)
     new_h = Hash[data]
     data.each do |k, v|
       if k =~ /\$/
         new_key = k.delete("\$")
         new_h.delete(k)
-        if v.is_a?(Array) || v.is_a?(Hash)
-          new_h[new_key] = iterate(v)
-        else
-          new_h[new_key] = v
-        end
+        new_h[new_key] = if v.is_a?(Array) || v.is_a?(Hash)
+                           iterate(v)
+                         else
+                           v
+                         end
       else
-        if v.is_a?(Array) || v.is_a?(Hash)
-          new_h[k] = iterate(v)
-        else
-          new_h[k] = v
-        end
+        new_h[k] = if v.is_a?(Array) || v.is_a?(Hash)
+                     iterate(v)
+                   else
+                     v
+                   end
       end
     end
-    return new_h
+    new_h
   else
     puts 'here'
-    return data
+    data
   end
 end
 
-data = YAML.load(File.read('nested.json'))
+data = YAML.safe_load(File.read('nested.json'))
 puts JSON.dump(iterate(data))

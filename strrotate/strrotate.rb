@@ -5,10 +5,10 @@ str2 = 'bottlewater'
 
 str = str1 + str1
 
-unless str[str2].nil?
-  puts "#{str2} is a substring of #{str1}"
-  true
-else
+if str[str2].nil?
   puts "#{str2} is not a substring of #{str1}"
   false
+else
+  puts "#{str2} is a substring of #{str1}"
+  true
 end
