@@ -27,7 +27,6 @@ def iterate(data)
     end
     new_h
   else
-    puts 'here'
     data
   end
 end
