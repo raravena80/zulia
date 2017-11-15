@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 #
-
-pairs = [[1, 3], [2, 3], [3, 6], [5, 6], [5, 7], [4, 5], [4, 8], [8, 9]]
+require_relative 'common'
+pairs = PAIRS
 
 def parents(pairs)
   first_elements = []
