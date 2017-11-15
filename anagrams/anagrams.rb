@@ -9,6 +9,6 @@ list.each do |i|
   anagrams[k] = anagrams[k].push(i) if anagrams[k].find_index(i).nil?
 end
 
-anagrams.each do |_k, v|
+anagrams.each_value do |v|
   puts v.to_s
 end

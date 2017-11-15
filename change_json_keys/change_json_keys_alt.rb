@@ -11,7 +11,7 @@ def map_keys(hash_or_array, &blk)
                                map_keys(val, &blk)
                              else
                                val
-      end
+                             end
     end
   elsif hash_or_array.is_a?(Array)
     array = hash_or_array
