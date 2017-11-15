@@ -7,7 +7,6 @@ def parents(pairs)
   first_elements = []
   second_elements = []
 
-  no_parents = []
   has_a_parent = []
 
   pairs.each do |i|

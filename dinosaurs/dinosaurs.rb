@@ -21,7 +21,7 @@ dino2.each do |l|
 end
 
 # Calculate speed
-dinosaurs.each do |k, _v|
+dinosaurs.each_key do |k|
   dinosaurs[k][:speed] = dinosaurs[k][:length].to_f * dinosaurs[k][:stride].to_f
 end
 

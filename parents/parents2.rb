@@ -18,7 +18,7 @@ def parents(pairs)
   zero = []
   one = []
   parentsh.each do |k, v|
-    zero.push(k) if v == 0
+    zero.push(k) if v.zero?
     one.push(k) if v == 1
   end
 
