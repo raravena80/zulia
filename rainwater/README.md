@@ -1,6 +1,6 @@
 # rainwater
 
-The problem is basically calculate the rain water accumulater in the valleys give that a topography is represented in an array. 0 means sea level.
+The problem is basically calculate the rain water accumulated in the valleys give that a topography is represented in an array. 0 means sea level.
 
 For example:
 
@@ -12,6 +12,6 @@ In this case:
  
 [ 3, 2, 2, 5, 2, 1, 7 ]
 
-Solutions are in Go:
+Solutions are in Ruby:
 
-- rainwater.rb - Solution in Ruby. Run with: go run rainwater.rb
+- rainwater.rb - Solution in Ruby. Run with: ./rainwater.rb
